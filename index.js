@@ -62,8 +62,8 @@ questions = [
       {
         "id": 1,
         "question": "QUES/1.jpg",
-        "options": ["BirdMan", "The Godfather", "Pulp Fiction", "The Dark Knight"],
-        "answer": "BirdMan",
+        "options": ["Test1", "Test2", "Test3", "Test4"],
+        "answer": "Test1",
         "ansID": "1"
       },
       {
