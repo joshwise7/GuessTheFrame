@@ -61,7 +61,7 @@ document.addEventListener('keydown', function(event){
 questions = [
       {
         "id": 1,
-        "question": "QUES/1.jpg",
+        "question": "QUES/1.png",
         "options": ["Test1", "Test2", "Test3", "Test4"],
         "answer": "Test1",
         "ansID": "1"
