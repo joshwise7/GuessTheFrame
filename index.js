@@ -61,7 +61,7 @@ document.addEventListener('keydown', function(event){
 questions = [
       {
         "id": 1,
-        "question": "QUES/1.webp",
+        "question": "QUES/1.jpg",
         "options": ["Ex Machina", "Snowpiercer", "Edge of Tomorrow", "Mickey 17"],
         "answer": "Mickey 17",
         "ansID": "4"
@@ -96,7 +96,7 @@ questions = [
       },
       {
         "id": 6,
-        "question": "QUES/6.png",
+        "question": "QUES/6.jpg",
         "options": ["There Will Be Blood", "Magnolia", "The Avengers", "Spider-Man"],
         "answer": "Magnolia",
         "ansID": "2"
