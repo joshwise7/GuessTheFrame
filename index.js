@@ -90,7 +90,7 @@ questions = [
       {
         "id": 5,
         "question": "QUES/5.jpg",
-        "options": ["Thunderbolts", "Eternals", "The Avengers", "Spider-Man"],
+        "options": ["Thunderbolts", "Eternals", "The Fantastic Four: First Steps", "Madame Web"],
         "answer": "Thunderbolts",
         "ansID": "1"
       },
