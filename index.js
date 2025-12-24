@@ -61,31 +61,31 @@ document.addEventListener('keydown', function(event){
 questions = [
       {
         "id": 1,
-        "question": "QUES/1.png",
+        "question": "QUES/1.webp",
         "options": ["Ex Machina", "Snowpiercer", "Edge of Tomorrow", "Mickey 17"],
         "answer": "Mickey 17",
-        "ansID": "1"
+        "ansID": "4"
       },
       {
         "id": 2,
         "question": "QUES/2.jpg",
         "options": ["Captain America: Brave New World", "Superman", "Black Widow", "The Batman"],
         "answer": "Captain America: Brave New World",
-        "ansID": "2"
+        "ansID": "1"
       },
       {
         "id": 3,
         "question": "QUES/3.jpg",
         "options": ["Death of a Unicorn", "Romeo + Juliet", "Friendship", "Clueless"],
         "answer": "Friendship",
-        "ansID": "1"
+        "ansID": "3"
       },
       {
         "id": 4,
         "question": "QUES/4.jpg",
         "options": ["Ghost in the Shell", "Akira", "Paprika", "The Tale of the Princess Kaguya"],
         "answer": "Akira",
-        "ansID": "1"
+        "ansID": "2"
       },
       {
         "id": 5,
@@ -96,10 +96,10 @@ questions = [
       },
       {
         "id": 6,
-        "question": "QUES/6.jpg",
+        "question": "QUES/6.png",
         "options": ["There Will Be Blood", "Magnolia", "The Avengers", "Spider-Man"],
         "answer": "Magnolia",
-        "ansID": "1"
+        "ansID": "2"
       }
     ]
 
