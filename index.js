@@ -425,24 +425,13 @@ function final(){
             <span class="result" style="background-color: limegreen;" id="result">${result}</span>
             <div class="cinephileLoad" id="cinephileLoad"></div>
             `
-
-            document.getElementById('cinephile').addEventListener('load', function() {
-                document.getElementById('cinephileLoad').style.opacity = 0
-                document.getElementById('cinephileLoad').style.zIndex = -5
-            })
         }
         else{
             result = "CINEPHOBE"
             document.getElementById("questionCard").innerHTML = `
             You scored <span style="color: red; font-weight: bold;">${countAns}</span> out of ${total} Questions!
             <span class="result" style="background-color: red;" id="result">${result}</span>
-            <div class="cinephobeLoad" id="cinephobeLoad"></div>
             `
-
-            document.getElementById('cinephobe').addEventListener('load', function() {
-                document.getElementById('cinephobeLoad').style.opacity = 0
-                document.getElementById('cinephobeLoad').style.zIndex = -5
-            })
         }
     }, 200);
 
