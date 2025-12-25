@@ -419,14 +419,14 @@ function final(){
         })
 
         if((parseInt(countAns)*100)/parseInt(total) > 50){
-            result = "CINEPHILE"
+            result = "WINNER"
             document.getElementById("questionCard").innerHTML = `
             You scored <span style="color: limegreen; font-weight: bold;">${countAns}</span> out of ${total} Questions!
             <span class="result" style="background-color: limegreen;" id="result">${result}</span>
             `
         }
         else{
-            result = "CINEPHOBE"
+            result = "LOSER"
             document.getElementById("questionCard").innerHTML = `
             You scored <span style="color: red; font-weight: bold;">${countAns}</span> out of ${total} Questions!
             <span class="result" style="background-color: red;" id="result">${result}</span>
