@@ -423,7 +423,6 @@ function final(){
             document.getElementById("questionCard").innerHTML = `
             You scored <span style="color: limegreen; font-weight: bold;">${countAns}</span> out of ${total} Questions!
             <span class="result" style="background-color: limegreen;" id="result">${result}</span>
-            <div class="cinephileLoad" id="cinephileLoad"></div>
             `
         }
         else{
