@@ -424,7 +424,6 @@ function final(){
             You scored <span style="color: limegreen; font-weight: bold;">${countAns}</span> out of ${total} Questions!
             <span class="result" style="background-color: limegreen;" id="result">${result}</span>
             <div class="cinephileLoad" id="cinephileLoad"></div>
-            <img class="cinephile" id="cinephile" src="RES/CINEPHILE.gif">
             `
 
             document.getElementById('cinephile').addEventListener('load', function() {
@@ -438,7 +437,6 @@ function final(){
             You scored <span style="color: red; font-weight: bold;">${countAns}</span> out of ${total} Questions!
             <span class="result" style="background-color: red;" id="result">${result}</span>
             <div class="cinephobeLoad" id="cinephobeLoad"></div>
-            <img class="cinephobe" id="cinephobe" src="RES/CINEPHOBE.gif">
             `
 
             document.getElementById('cinephobe').addEventListener('load', function() {
